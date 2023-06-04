@@ -1,0 +1,12 @@
+CREATE DATABASE ensao;
+CREATE TABLE IF NOT EXISTS `students` (
+  `id` int(20) NOT NULL AUTO_INCREMENT,
+  `cne` varchar(30) NOT NULL,
+  `birthDate` varchar(20) NOT NULL,
+  `firstName` varchar(50) NOT NULL,
+  `lastName` varchar(50) NOT NULL,
+  `studentField` varchar(50) NOT NULL,
+  `currentLevel` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
